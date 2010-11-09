@@ -1,0 +1,1 @@
+makecards sample/tibet labels: sample/labels font: fonts/casual.ttf 4suits

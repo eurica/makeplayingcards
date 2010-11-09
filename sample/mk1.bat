@@ -1,0 +1,14 @@
+copy empty.txt da.txt
+copy empty.txt d2.txt
+copy empty.txt d3.txt
+copy empty.txt d4.txt
+copy empty.txt d5.txt
+copy empty.txt d6.txt
+copy empty.txt d7.txt
+copy empty.txt d8.txt
+copy empty.txt d9.txt
+copy empty.txt d10.txt
+copy empty.txt dj.txt
+copy empty.txt dk.txt
+copy empty.txt dq.txt
+copy empty.txt djoker.txt

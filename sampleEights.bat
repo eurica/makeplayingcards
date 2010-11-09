@@ -1,0 +1,1 @@
+makecards sample/tibet labels: sample/eights 1suit

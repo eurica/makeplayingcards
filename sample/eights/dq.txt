@@ -1,0 +1,5 @@
+Queen:
+Next Player
+Skip a Turn
+
+

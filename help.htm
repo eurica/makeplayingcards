@@ -1,0 +1,288 @@
+<html><head>
+
+<link rel="StyleSheet" href="help_files/print.css" type="text/css" media="print">
+<link rel="StyleSheet" href="help_files/pretty.css" type="text/css" media="screen">
+<link rel="shortcut icon" href="http://euri.ca/favicon.ico" type="image/x-icon">
+<meta name="keywords" value="dave, math, chinese, computers">
+<meta name="description" value=""><title>MakePlayingCards (: euri.ca :)</title>
+
+<style>
+body {
+	font-family: calibri;
+	margin: 0;
+}
+
+a.tc  img{
+	width: 40px; height: 40px;
+	vertical-align: middle;
+	border:0;
+}
+a.tc {
+	display: block;
+	font-size:150%;
+	vertical-align: middle;
+	width: 144px;
+	padding: 0px 0px 0px 16px;
+	text-decoration: none;
+	color: #3333CC;
+}
+
+a.tc2  img{
+	width: 25px; height: 25px;
+	vertical-align: middle;
+	border:0;
+}
+a.tc2 {
+	display: block;
+	font-size:120%;
+	vertical-align: middle;
+	width: 128px;
+	padding: 0px 0px 0px 32px;
+	text-decoration: none;
+	color: #3333CC;
+}
+
+
+a.tc:hover, a.tc2:hover {
+	background-image: url(/layout/i/back2.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	color: black;
+}
+
+</style></head><body>
+  <table class="prettypbox" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr><td class="t5">
+  <a href="http://euri.ca/"><img src="help_files/logo.jpg" style="height: 72px;"></a></td><td class="t5" style="background: rgb(255, 255, 255) url(/layout/code.png) no-repeat scroll right center; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+
+  <div class="title" style="text-align: center; vertical-align: middle;">MakePlayingCards</div>
+  </td><td class="t6">&nbsp;</td></tr><tr><td class="t2" colspan="2">&nbsp;</td><td class="t3">&nbsp;</td></tr></tbody></table>
+
+<table style="table-layout: fixed; margin-top: 12px;" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+<tbody><tr><td style="height: 1px; width: 200px;"><!-- toc spacer --><img src="help_files/null.gif" style="width: 200px; height: 1px;"></td>
+<td style="width: 12px;" rowspan="2"><br></td><td rowspan="2" height="100%" width="100%">
+
+<table style="width: 100%; table-layout: fixed;" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%"><tbody><tr><td class="t7">&nbsp;</td><td class="t8">&nbsp;</td><td class="t9">&nbsp;</td></tr><tr><td class="t4">&nbsp;</td><td class="t5" style="width: 100%;" height="100%" width="100%"><!--
+Array
+(
+    [DOCUMENT_ROOT] => /home/content/e/u/r/eurica/html
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [HTTP_ACCEPT] => text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+    [HTTP_ACCEPT_CHARSET] => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-gb,en;q=0.5
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_COOKIE] => dbx-linkmeta=grabit:0+|1-|2-&advancedstuff:0-|1-; dbx-pagemeta=grabit:0-|1-|2-|3-|4-|5-|6-&advancedstuff:0-; dbx-postmeta=grabit:0+|1-|2-|3-|4+|5+&advancedstuff:0-|1-|2-
+    [HTTP_HOST] => euri.ca
+    [HTTP_KEEP_ALIVE] => 300
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.11) Gecko/20071127 Firefox/2.0.0.11
+    [PATH] => /bin:/usr/bin:/usr/local/bin
+    [PATH_INFO] => /index.php
+    [PHPRC] => /home/content/e/u/r/eurica/html
+    [QUERY_STRING] => code/MakePlayingCards/
+    [REDIRECT_QUERY_STRING] => code/MakePlayingCards/
+    [REDIRECT_SCRIPT_URI] => http://euri.ca/code/MakePlayingCards/
+    [REDIRECT_SCRIPT_URL] => /code/MakePlayingCards/
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_URL] => /code/MakePlayingCards/
+    [REMOTE_ADDR] => 216.59.230.222
+    [REMOTE_PORT] => 60188
+    [REQUEST_METHOD] => GET
+    [REQUEST_URI] => /code/MakePlayingCards/
+    [SCRIPT_FILENAME] => /home/content/e/u/r/eurica/html/index.php
+    [SCRIPT_NAME] => /index.php
+    [SCRIPT_URI] => http://euri.ca/code/MakePlayingCards/
+    [SCRIPT_URL] => /code/MakePlayingCards/
+    [SERVER_ADDR] => 208.109.14.77
+    [SERVER_ADMIN] => support@supportwebsite.com
+    [SERVER_NAME] => euri.ca
+    [SERVER_PORT] => 80
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SIGNATURE] => <ADDRESS>Apache/1.3.33 Server at euri.ca Port 80</ADDRESS>
+
+    [SERVER_SOFTWARE] => Apache
+    [PHP_SELF] => /index.php
+    [argv] => Array
+        (
+            [0] => code/MakePlayingCards/
+        )
+
+    [argc] => 1
+)
+-->
+<!--Includes-->
+<!--/Includes-->
+
+<!--Contents-->
+
+<img src="help_files/cards.png" align="right">
+<p>
+</p><div><div class="h1"><a name="xmakeplayingcardsx"></a> MakePlayingCards</div>
+<p>I love making customized things. There are places that will let you
+print playing cards with a custom backing, but I thought it would be
+more fun to have pictures of people I knew on all the different cards.
+</p><p>This program generates high quality pictures that I then printed at a photo store (I used <a href="http://pephoto.com/">PE Photo</a>,
+but any photo store that will print pictures without printing the
+filenames on the back will do, keep in mind that that'll be a special
+request, PE Photo charges me an extra $5/order to do that). I then cut
+each picture in half with a paper cutter. IT usually costs me about $4
+a deck to make these cards and people love them.
+</p><p>You can <a href="http://euri.ca/code/MakePlayingCards/makePlayingCards.zip">download makePlayingCards</a> here, unzip it and start.
+</p><p>
+</p><div class="sect"><span class="h2"><a name="quickstart"></a> Quick Start</span><br>
+If you already have 54 pictures you like, rename them to:
+<p></p><table>
+<tbody><tr><th>Diamonds:</th>
+<td>da.jpg</td><td>d2.jpg</td><td>d3.jpg</td><td>d4.jpg</td><td>d5.jpg</td><td>d6.jpg</td><td>d7.jpg</td><td>d8.jpg</td><td>d9.jpg</td><td>d10.jpg</td><td>dj.jpg</td><td>dk.jpg</td><td>dq.jpg</td><td>djoker.jpg</td>
+</tr>
+<tr><th>Hearts:</th>
+<td>ha.jpg</td><td>h2.jpg</td><td>h3.jpg</td><td>h4.jpg</td><td>h5.jpg</td><td>h6.jpg</td><td>h7.jpg</td><td>h8.jpg</td><td>h9.jpg</td><td>h10.jpg</td><td>hj.jpg</td><td>hk.jpg</td><td>hq.jpg</td>
+</tr>
+<tr><th>Spades:</th>
+<td>sa.jpg</td><td>s2.jpg</td><td>s3.jpg</td><td>s4.jpg</td><td>s5.jpg</td><td>s6.jpg</td><td>s7.jpg</td><td>s8.jpg</td><td>s9.jpg</td><td>s10.jpg</td><td>sj.jpg</td><td>sk.jpg</td><td>sq.jpg</td><td>sjoker.jpg</td>
+</tr>
+<tr><th>Clubs:</th>
+<td>ca.jpg</td><td>c2.jpg</td><td>c3.jpg</td><td>c4.jpg</td><td>c5.jpg</td><td>c6.jpg</td><td>c7.jpg</td><td>c8.jpg</td><td>c9.jpg</td><td>c10.jpg</td><td>cj.jpg</td><td>ck.jpg</td><td>cq.jpg</td></tr>
+</tbody></table>
+<p>And then run "<span class="code">makecards [picturedirectory]</span>" and wait, your prints will appear in the finished directory
+</p><p>
+</p></div>
+<p></p><div class="sect"><span class="h2"><a name="syntax"></a> Syntax</span><br>
+<span class="code">makecards path/to/pictures [labels: path/to/labels] [font: (font|path/to/font)] [1suit|2suits|4suits]</span>
+<p>Will generate 28 1800 by 1200 pixel jpg files, that can then be printed at a photo shop for thick sturdy playing cards.
+</p><p>
+</p></div>
+<p></p><div class="sect"><span class="h2"><a name="whatyouneedtododecidestart"></a> What you need to do &amp; decide start</span><br>
+<p></p><div class="sect"><span class="h3"><a name="howmany"></a> How many?</span><br>How
+many distinct cards do you want to make? MakePlayingCards will always
+generate 54 cards (13 in each suit and 2 jokers), but you have 3
+choices:
+<div class="bullet">- 4Suits: Supply 54 pictures (52 cards + 2 jokers) and have a different picture on every card.  This is the default.</div><div class="bullet">- 2Suits: Supply 28 pictures (26 cards + 2 jokers) where cards with the same colour and suit have the same picture.</div><div class="bullet">- 1Suit: Supply 14 pictures (13 cards + 1 joker) and each rank will have a different pictures</div>
+</div>
+<p></p><div class="sect"><span class="h3"><a name="text"></a> Text?</span><br>
+If you'd like text (up to 3 lines) on each card make text files with the same names as the pictures
+<p>You can also choose a font, I've included a few of my (free) favourites in the fonts directory.
+</p><p></p></div>
+</div>
+<p></p><div class="sect"><span class="h2"><a name="makingcards"></a> Making cards</span><br>
+First you need to rename your pictures so that the software knows which picture goes on which card.
+<p>The naming convention is one letter for the suit (d, h, s, c for
+diamonds, hearts, spades and clubs) and then a letter, number or the
+word joker for the rank.
+</p><div class="bullet">- If you're making only 1 suit, name your
+pictures as diamonds. So da.jpg for the ace, d2.jpg through d10.jpg for
+the numbers, and dj.jpg, dq.jpg, dk.jpg and djoker.jpg for the face
+cards.</div><div class="bullet">- For 2 suits, name your pictures for
+the red cards as diamonds, name the pictures for the black cards as
+spades, so sa.jpg, s2.jpg.... s10.jpg, sj.jpg, sq.jpg, sk.jpg,
+sjoker.jpg.</div><div class="bullet">-  For 4 suits, add ha.jpg through hk.jpg, and ca.jpg through ck.jpg.  You don't need to add any extra jokers.</div>
+</div>
+<p></p><div class="sect"><span class="h2"><a name="running"></a> Running</span><br>
+From the command prompt run:
+<span class="code">makecards path/to/pictures labels: path/to/labels font: fontnameorpath 1suit/2suits/4suits</span>
+<p>
+If that's confusing just take a look at the examples.
+</p><p></p></div>
+<p></p><div class="sect"><span class="h2"><a name="examples"></a> Examples:</span><br>
+All of these examples will use some boring pictures of the Tibetan
+countryside that I've included in the sample directory. You might
+notice that it doesn't matter how large the source pictures are,
+they'll be resized. But starting with higher resolution pictures will
+give better results.
+<p>All of the samples are included as batch files, so you can run them witha single click
+</p><p>Warning: this is really slow, it takes a few minutes to generate a deck.
+</p><p>
+</p><div class="sect"><span class="h3"><a name="samplebatstandarddeckwithtext"></a> Sample.bat: Standard deck with text</span><br>
+<span class="code">makecards sample/tibet labels: sample/labels font: fonts/casual.ttf 4suits</span>
+<p>This will generate four different suits, with the words "Text Text Text" in a bubbly text
+</p><p></p></div>
+<p></p><div class="sect"><span class="h3"><a name="samplenamesbatnamesforfacecards"></a> SampleNames.bat: Names for face cards</span><br>
+<span class="code">makecards sample/tibet labels: sample/paris 4suits</span>
+<p>This will generate 4 suits, where the face cards have their 16th
+century traditional court names in the default font (usually Arial).
+</p><p></p></div>
+<p></p><div class="sect"><span class="h3"><a name="sampleeightsbatcrazyeightsrules"></a> SampleEights.bat: Crazy Eights rules</span><br>
+<span class="code">makecards sample/tibet labels: sample/paris 4suits</span>
+<p>This will generate 1 suit worth of pictures (the pictures will be
+the same as the diamonds from the previous examples) with crazy eights
+rules on the special cards.
+</p><p>
+</p></div>
+</div>
+<p></p><div class="sect"><span class="h2"><a name="trivia"></a> Trivia</span><br>I'm
+used to a "standard" 54 card deck, so that's what gets printed here,
+but if there's demand I'll add options for other kinds of decks, like
+Tarot.
+<p>From <a href="http://en.wikipedia.org/wiki/Playing_card">Wikipedia</a>:
+</p><div class="bullet">- The joker is an American innovation (1865).
+Created for the Alsatian game of Euchre, it spread to Europe from
+America along with the spread of Poker.</div><div class="bullet">- In
+early games the kings were always the highest card in their suit.
+However, as early as the late 14th century special significance began
+to be placed on the nominally lowest card, now called the Ace, so that
+it sometimes became the highest card and the Two, or Deuce, the lowest.
+This concept may have been hastened in the late 18th century by the
+French Revolution, where games began being played "ace high" as a
+symbol of lower classes rising in power above the royalty.</div>
+</div>
+<p></p><div class="sect"><span class="h2"><a name="license"></a> License</span><br>
+This software includes parts of the fantastic <a href="http://www.imagemagick.org/">ImageMagick</a> program, which is free to use and distribute.  If you're interested in graphics, I'd take a look at it.
+<p>The rest of the software bits are copyright 2007 &amp; 2008 David Hayes.
+</p></div>
+</div>
+<p><!--/Contents-->
+
+</p></td><td class="t6">&nbsp;</td></tr><tr><td class="t1">&nbsp;</td><td class="t2">&nbsp;</td><td class="t3">&nbsp;</td></tr></tbody></table>
+
+</td></tr>
+<tr>
+<td>
+<br>
+
+<!-- table of contents -->
+<table class="prettypbox" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr><td class="t8">&nbsp;</td><td class="t9">&nbsp;</td></tr><tr><td class="t5pl">
+<span style="font-size: 120%;">Table of Contents:</span>
+<hr>
+<a class="toc1" href="#makeplayingcards">MakePlayingCards</a><a class="toc2" href="#quickstart">Quick Start</a><a class="toc2" href="#syntax">Syntax</a><a class="toc2" href="#whatyouneedtododecidestart">What you need to do &amp; decide start</a><a class="toc3" href="#howmany">How many?</a><a class="toc3" href="#text">Text?</a><a class="toc2" href="#makingcards">Making cards</a><a class="toc2" href="#running">Running</a><a class="toc2" href="#examples">Examples:</a><a class="toc3" href="#samplebatstandarddeckwithtext">Sample.bat: Standard deck with text</a><a class="toc3" href="#samplenamesbatnamesforfacecards">SampleNames.bat: Names for face cards</a><a class="toc3" href="#sampleeightsbatcrazyeightsrules">SampleEights.bat: Crazy Eights rules</a><a class="toc2" href="#trivia">Trivia</a><a class="toc2" href="#license">License</a>
+<a href="http://euri.ca/code/" class="toc2" style="text-align: right;">(up)</a>
+</td><td class="t6">&nbsp;</td></tr><tr><td class="t2">&nbsp;</td><td class="t3">&nbsp;</td></tr></tbody></table>
+<br>
+
+
+<!-- advertisements -->
+<table class="prettypbox" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+<tbody><tr><td colspan="2"><br></td></tr>
+<tr><td class="t8">&nbsp;</td><td class="t9">&nbsp;</td></tr>
+<tr><td class="t5" style="border: 1px solid white;">
+
+
+
+<a href="http://euri.ca/projects" class="tc"><img src="help_files/science.png"> Projects</a>
+<a href="http://euri.ca/games" class="tc2"><img src="help_files/games.png"> Games</a>
+<a href="http://euri.ca/code" class="tc2"><img src="help_files/code.png"> Software</a>
+<a href="http://euri.ca/math" class="tc2"><img src="help_files/math.png"> Math</a>
+<a href="http://euri.ca/humour" class="tc"><img src="help_files/smile.png"> Funny</a>
+<a href="http://euri.ca/puzzles" class="tc"><img src="help_files/puzzle.png"> Puzzles</a>
+<a href="http://euri.ca/china" class="tc"><img src="help_files/china.png"> China</a>
+<a href="http://euri.ca/blog" class="tc"><img src="help_files/text.png"> Blog</a><br>
+</td><td class="t6">&nbsp;</td></tr>
+<tr><td class="t2">&nbsp;</td><td class="t3">&nbsp;</td></tr>
+</tbody></table>
+
+<br>
+<!-- folder contents -->
+
+
+
+</td>
+
+</tr></tbody></table>
+<br>
+<div class="footer">
+All content Copyright 1999-2007, by its original owners, which is often me.<br>
+This site uses Unicode, but only rarely.  <a href="http://www2.clustrmaps.com/counter/maps.php?url=http://euri.ca" id="clustrMapsLink"><img src="help_files/index2.jpg" style="display: none;" align="right">Hit Counter</a>
+</div>
+
+</body></html>
